@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yKG6zLUEboExfBOxtamD+4wmw0J7iwV75UePp0kjrpVuXa1be1LHAtfzQGnEw1V/fIC+5lOCEQb9+PaXmqdamQ==",
+  "dgSpecHash": "DGoWQP0Co0D5jIN8L19OpPzfBVCAL2wBjN0LVdIxQ7w3tmszvrW5pdl87x8qPCtn5/DM7t2w8p/6lLe6nvajxA==",
   "success": true,
-  "projectFilePath": "D:\\UniversalApi\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Foysal\\.nuget\\packages\\ardalis.result\\7.2.0\\ardalis.result.7.2.0.nupkg.sha512",
     "C:\\Users\\Foysal\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Foysal\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Foysal\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
@@ -74,7 +75,7 @@
     "C:\\Users\\Foysal\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\Foysal\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512",
     "C:\\Users\\Foysal\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\Foysal\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\Foysal\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512",
     "C:\\Users\\Foysal\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\Foysal\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Foysal\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"

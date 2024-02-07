@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "D3IURUbzopCzByvs8O/NS15UujPO4StmArhlP1pKSbSckLO3RxS0DExhFdkO+lR0tS3tlrJVySA3R9UB7/aZbQ==",
+  "dgSpecHash": "/45QL9m6qJCkQylG41vJRr6FDiNMxfzxPe1ykYsCSq7e3OQfWYfSHVyr77A7HKGYJurWpGO4mcOySBzqJYevYQ==",
   "success": true,
-  "projectFilePath": "D:\\UniversalApi\\Application\\Application.csproj",
+  "projectFilePath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Foysal\\.nuget\\packages\\ardalis.result\\7.2.0\\ardalis.result.7.2.0.nupkg.sha512",
     "C:\\Users\\Foysal\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Foysal\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Foysal\\.nuget\\packages\\fluentvalidation\\8.5.0\\fluentvalidation.8.5.0.nupkg.sha512",
@@ -27,7 +28,9 @@
     "C:\\Users\\Foysal\\.nuget\\packages\\microsoft.identitymodel.logging\\7.2.0\\microsoft.identitymodel.logging.7.2.0.nupkg.sha512",
     "C:\\Users\\Foysal\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.2.0\\microsoft.identitymodel.tokens.7.2.0.nupkg.sha512",
     "C:\\Users\\Foysal\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512",
-    "C:\\Users\\Foysal\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.2.0\\system.identitymodel.tokens.jwt.7.2.0.nupkg.sha512"
+    "C:\\Users\\Foysal\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.2.0\\system.identitymodel.tokens.jwt.7.2.0.nupkg.sha512",
+    "C:\\Users\\Foysal\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\Foysal\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512"
   ],
   "logs": []
 }

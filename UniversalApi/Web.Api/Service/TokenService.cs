@@ -1,4 +1,5 @@
 ﻿using Application.Common.Interfaces;
+using Application.DTOS;
 using Domain.Entity;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -32,7 +33,7 @@ namespace Web.Api.Service
             return new SigningCredentials(secret, SecurityAlgorithms.HmacSha256);
         }
 
-        public async Task<List<Claim>> GetClaims(User user, List<Role> roles)
+        public async Task<List<Claim>> GetClaims(UserDto user, List<RoleDto> roles)
         {
             var claims = new List<Claim>
             {

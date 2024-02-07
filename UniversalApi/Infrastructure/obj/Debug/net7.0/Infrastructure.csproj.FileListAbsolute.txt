@@ -17,3 +17,23 @@ D:\UniversalApi\Infrastructure\bin\Debug\net7.0\Domain.pdb
 D:\UniversalApi\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
 D:\UniversalApi\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
 D:\UniversalApi\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\bin\Debug\net7.0\Infrastructure.runtimeconfig.json
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\bin\Debug\net7.0\Application.dll
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\bin\Debug\net7.0\Domain.dll
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\bin\Debug\net7.0\Application.pdb
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\bin\Debug\net7.0\Domain.pdb
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\obj\Debug\net7.0\Infrastructure.sourcelink.json
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll

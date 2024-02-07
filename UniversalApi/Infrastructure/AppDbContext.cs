@@ -39,7 +39,7 @@ namespace Infrastructure
 
 
 
-        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
+        public Task<int> SaveChanges(CancellationToken cancellationToken = new CancellationToken())
         {
             foreach (var entry in ChangeTracker.Entries<BaseEntity>())
             {
@@ -58,5 +58,26 @@ namespace Infrastructure
 
             return base.SaveChangesAsync(cancellationToken);
         }
+        public async Task<int> Save()
+        {
+            foreach (var entry in ChangeTracker.Entries<BaseEntity>().ToList())
+            {
+                switch (entry.State)
+                {
+                    case EntityState.Added:
+                        entry.Entity.CreateBy = string.Empty;
+                        entry.Entity.ModifiedBy = string.Empty;
+                        entry.Entity.CreateDate = DateTime.UtcNow;
+                        break;
+
+                    case EntityState.Modified:
+                        entry.Entity.ModifiedBy = string.Empty;
+                        entry.Entity.ModifiedDate = DateTime.UtcNow;
+                        break;
+                }
+            }
+            return await base.SaveChangesAsync();
+        }
+
     }
 }

@@ -1,21 +1,23 @@
 ﻿using Application.Common.Interfaces;
 using Application.DTOS;
-using Application.Queries.Employee;
+using Application.Queries.EmployeeQueries;
 using Infrastructure;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
+using Web.Api.Handlers;
 
 namespace Web.Api.Controllers
 {
     
     public class EmployeesController : ApiBaseController
     {
-       
 
 
 
+        [Authorize(Roles ="User")]
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {

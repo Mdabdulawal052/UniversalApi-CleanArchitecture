@@ -1,48 +1,67 @@
 ﻿using Application.Common.Exceptions;
+using Application.Common.Extentions;
+using Application.Common.Interfaces;
+using Application.DTOS;
+using Application.Queries.RoleQueries;
+using Application.Queries.UserQueries;
+using Domain.Entity;
 using MediatR;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Application.Commands.Auth
 {
-    
-    public class AuthCommand : IRequest<bool>
+
+    public class AuthCommand : IRequest<AuthResponseDto>
     {
-        public string UserName { get; set; }
-        public string Password { get; set; }
+        public UserForRegistrationDto Model { get; set; }
+
     }
 
-    public class AuthCommandHandler : IRequestHandler<AuthCommand, bool>
+    public class AuthCommandHandler : IRequestHandler<AuthCommand, AuthResponseDto>
     {
-        private readonly ITokenGenerator _tokenGenerator;
-        private readonly IIdentityService _identityService;
+        private readonly ITokenService _tokenService;
+        private IMediator _mediator;
+        // private readonly IIdentityService _identityService;
 
-        public AuthCommandHandler(IIdentityService identityService, ITokenGenerator tokenGenerator)
+        public AuthCommandHandler(ITokenService tokenService, IMediator mediator)
         {
-            _identityService = identityService;
-            _tokenGenerator = tokenGenerator;
+            //_identityService = identityService;
+            _tokenService = tokenService;
+            _mediator = mediator;
         }
 
-        public async Task<bool> Handle(AuthCommand request, CancellationToken cancellationToken)
+        public async Task<AuthResponseDto> Handle(AuthCommand request, CancellationToken cancellationToken)
         {
-            var result = await _identityService.SigninUserAsync(request.UserName, request.Password);
+            var user = await _mediator.Send(new GetUserDetailsQuery(request.Model.UserName));
 
-            if (!result)
+            if (user == null)
             {
-                throw new BadRequestException("Invalid username or password");
+                var encryptPassword = EncryptPassword.EncryptStringToBytes(request.Model.Password, user.HashKey);
+                if (encryptPassword != user.PasswordHash)
+                {
+
+                }
+                //return new Exception("InvalidAuthentication");
+
             }
+            var roles = await _mediator.Send(new GetAllRoleQuery());
 
-            var (userId, fullName, userName, email, roles) = await _identityService.GetUserDetailsAsync(await _identityService.GetUserIdAsync(request.UserName));
+            var signingCredentials = _tokenService.GetSigningCredentials();
+            var claims = await _tokenService.GetClaims(user,roles);
+            var tokenOptions = _tokenService.GenerateTokenOptions(signingCredentials, claims);
+            var token = new JwtSecurityTokenHandler().WriteToken(tokenOptions);
 
-            string token = _tokenGenerator.GenerateJWTToken((userId: userId, userName: userName, roles: roles));
+            user.RefreshToken = _tokenService.GenerateRefreshToken();
+            user.RefreshTokenExpiryTime = DateTime.Now.AddDays(7);
 
-            return new AuthResponseDTO()
+            return new AuthResponseDto()
             {
-                UserId = userId,
-                Name = userName,
+                Name = user.UserName,
                 Token = token
             };
         }

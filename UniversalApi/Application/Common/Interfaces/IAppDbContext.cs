@@ -18,6 +18,7 @@ namespace Application.Common.Interfaces
         public DbSet<UserRole> UserRoles { get; set; }
 
 
-        Task<int> SaveChangesAsync(CancellationToken cancellationToken);
+        Task<int> SaveChanges(CancellationToken cancellationToken);
+        Task<int> Save();
     }
 }

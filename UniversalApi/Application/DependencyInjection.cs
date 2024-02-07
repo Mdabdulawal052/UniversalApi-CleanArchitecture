@@ -1,5 +1,4 @@
 ﻿using Application.Common.Behaviours;
-using Application.Common.Helper;
 using Application.Common.Interfaces;
 using Application.Common.Mappings;
 using MediatR;
@@ -22,13 +21,7 @@ namespace Application
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(RequestPerformanceBehaviour<,>));
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(RequestValidationBehavior<,>));
             services.AddAutoMapper(typeof(MappingProfile).Assembly);
-            //services.AddScoped<ITokenService, TokenService>();
-
-
-           
-
-
-
+            
             return services;
         }
     }

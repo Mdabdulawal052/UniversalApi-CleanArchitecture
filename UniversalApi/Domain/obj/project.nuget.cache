@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tbJ/8T/aTe7+2VLsNJBHLkw+kKF64wBX+3sMy+x3kr3VDRqou1hpqvxCKqnOy9wPa/thU7y5ZPx1VcatHY8GCA==",
+  "dgSpecHash": "MAUPJ9aX2e5yyB4uLsm5u1CNAAXMAMgW6ljFFyf6yyDPGKfE+ei4kb9D3ZhYjvRVu9+SpXrzmAQUSjNAL/g9nQ==",
   "success": true,
-  "projectFilePath": "D:\\UniversalApi\\Domain\\Domain.csproj",
+  "projectFilePath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

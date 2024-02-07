@@ -16,6 +16,10 @@ namespace Application.Common.Mappings
         {
             CreateMap<Employee, EmployeeDto>().ReverseMap();
             CreateMap<UserDto, User>().ReverseMap();
+            CreateMap<RoleDto, Role>().ReverseMap();
+            //CreateMap<UserDto, User>().ReverseMap();
+            //CreateMap<UserDto, User>().ReverseMap();
+
 
         }
 

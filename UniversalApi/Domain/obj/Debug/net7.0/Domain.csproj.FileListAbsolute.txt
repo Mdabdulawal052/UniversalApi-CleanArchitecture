@@ -9,3 +9,15 @@ D:\UniversalApi\Domain\obj\Debug\net7.0\Domain.dll
 D:\UniversalApi\Domain\obj\Debug\net7.0\refint\Domain.dll
 D:\UniversalApi\Domain\obj\Debug\net7.0\Domain.pdb
 D:\UniversalApi\Domain\obj\Debug\net7.0\ref\Domain.dll
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Domain\bin\Debug\net7.0\Domain.deps.json
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Domain\bin\Debug\net7.0\Domain.dll
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Domain\bin\Debug\net7.0\Domain.pdb
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Domain\obj\Debug\net7.0\Domain.sourcelink.json
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Domain\obj\Debug\net7.0\Domain.dll
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Domain\obj\Debug\net7.0\refint\Domain.dll
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Domain\obj\Debug\net7.0\Domain.pdb
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Domain\obj\Debug\net7.0\ref\Domain.dll

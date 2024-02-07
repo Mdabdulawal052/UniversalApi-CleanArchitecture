@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UniversalApi\\Web.Api\\Web.Api.csproj": {}
+    "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Web.Api.csproj": {}
   },
   "projects": {
-    "D:\\UniversalApi\\Application\\Application.csproj": {
+    "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UniversalApi\\Application\\Application.csproj",
+        "projectUniqueName": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\UniversalApi\\Application\\Application.csproj",
+        "projectPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Foysal\\.nuget\\packages\\",
-        "outputPath": "D:\\UniversalApi\\Application\\obj\\",
+        "outputPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\UniversalApi\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\UniversalApi\\Domain\\Domain.csproj"
+              "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -49,6 +49,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Ardalis.Result": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
             "AutoMapper": {
               "target": "Package",
               "version": "[12.0.1, )"
@@ -110,14 +114,14 @@
         }
       }
     },
-    "D:\\UniversalApi\\Domain\\Domain.csproj": {
+    "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UniversalApi\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\UniversalApi\\Domain\\Domain.csproj",
+        "projectPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Foysal\\.nuget\\packages\\",
-        "outputPath": "D:\\UniversalApi\\Domain\\obj\\",
+        "outputPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -170,14 +174,14 @@
         }
       }
     },
-    "D:\\UniversalApi\\Infrastructure\\Infrastructure.csproj": {
+    "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UniversalApi\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\UniversalApi\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Foysal\\.nuget\\packages\\",
-        "outputPath": "D:\\UniversalApi\\Infrastructure\\obj\\",
+        "outputPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -199,11 +203,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\UniversalApi\\Application\\Application.csproj": {
-                "projectPath": "D:\\UniversalApi\\Application\\Application.csproj"
+              "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Application.csproj": {
+                "projectPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Application.csproj"
               },
-              "D:\\UniversalApi\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\UniversalApi\\Domain\\Domain.csproj"
+              "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -257,14 +261,14 @@
         }
       }
     },
-    "D:\\UniversalApi\\Web.Api\\Web.Api.csproj": {
+    "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Web.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UniversalApi\\Web.Api\\Web.Api.csproj",
+        "projectUniqueName": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Web.Api.csproj",
         "projectName": "Web.Api",
-        "projectPath": "D:\\UniversalApi\\Web.Api\\Web.Api.csproj",
+        "projectPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Web.Api.csproj",
         "packagesPath": "C:\\Users\\Foysal\\.nuget\\packages\\",
-        "outputPath": "D:\\UniversalApi\\Web.Api\\obj\\",
+        "outputPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -286,8 +290,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\UniversalApi\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\UniversalApi\\Infrastructure\\Infrastructure.csproj"
+              "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Queries.Employee
+namespace Application.Queries.EmployeeQueries
 {
     public class GetEmployeesListQuery : IRequest<EmployeeListDto>
     {

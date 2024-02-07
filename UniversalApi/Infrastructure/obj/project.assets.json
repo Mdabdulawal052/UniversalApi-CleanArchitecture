@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Ardalis.Result/7.2.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "7.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Ardalis.Result.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ardalis.Result.dll": {}
+        }
+      },
       "AutoMapper/12.0.1": {
         "type": "package",
         "dependencies": {
@@ -1171,7 +1183,7 @@
           }
         }
       },
-      "System.Text.Json/7.0.0": {
+      "System.Text.Json/7.0.3": {
         "type": "package",
         "dependencies": {
           "System.Text.Encodings.Web": "7.0.0"
@@ -1238,6 +1250,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Ardalis.Result": "7.2.0",
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "Domain": "1.0.0",
@@ -1270,6 +1283,19 @@
     }
   },
   "libraries": {
+    "Ardalis.Result/7.2.0": {
+      "sha512": "PPTQqwtpxP6euBZ8pnGtvqZU8delTsIMTS0ENPeTJAdRf78Lp4h2mGeufZnVtIiUd+sXMb3VdcprSxOlHGLHbQ==",
+      "type": "package",
+      "path": "ardalis.result/7.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ardalis.result.7.2.0.nupkg.sha512",
+        "ardalis.result.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Ardalis.Result.dll"
+      ]
+    },
     "AutoMapper/12.0.1": {
       "sha512": "hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
       "type": "package",
@@ -3599,10 +3625,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Json/7.0.0": {
-      "sha512": "DaGSsVqKsn/ia6RG8frjwmJonfos0srquhw09TlT8KRw5I43E+4gs+/bZj4K0vShJ5H9imCuXupb4RmS+dBy3w==",
+    "System.Text.Json/7.0.3": {
+      "sha512": "AyjhwXN1zTFeIibHimfJn6eAsZ7rTBib79JQpzg8WAuR/HKDu9JGNHTuu3nbbXQ/bgI+U4z6HtZmCHNXB1QXrQ==",
       "type": "package",
-      "path": "system.text.json/7.0.0",
+      "path": "system.text.json/7.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3665,7 +3691,7 @@
         "lib/net7.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.7.0.0.nupkg.sha512",
+        "system.text.json.7.0.3.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -3825,11 +3851,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UniversalApi\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "D:\\UniversalApi\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Foysal\\.nuget\\packages\\",
-      "outputPath": "D:\\UniversalApi\\Infrastructure\\obj\\",
+      "outputPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3851,11 +3877,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\UniversalApi\\Application\\Application.csproj": {
-              "projectPath": "D:\\UniversalApi\\Application\\Application.csproj"
+            "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Application.csproj": {
+              "projectPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Application.csproj"
             },
-            "D:\\UniversalApi\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\UniversalApi\\Domain\\Domain.csproj"
+            "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Domain.csproj": {
+              "projectPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Domain.csproj"
             }
           }
         }

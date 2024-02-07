@@ -53,7 +53,7 @@ namespace Application.System.Commands.SeedSampleData
                 _context.Employees.Add(employee);
             }
 
-            await _context.SaveChangesAsync(cancellationToken);
+            await _context.SaveChanges(cancellationToken);
         }
     }
 }

@@ -13,3 +13,19 @@ D:\UniversalApi\Application\obj\Debug\net7.0\ref\Application.dll
 D:\UniversalApi\Application\bin\Debug\net7.0\Domain.dll
 D:\UniversalApi\Application\bin\Debug\net7.0\Domain.pdb
 D:\UniversalApi\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\obj\Debug\net7.0\Application.sourcelink.json
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\obj\Debug\net7.0\Application.dll
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\obj\Debug\net7.0\refint\Application.dll
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\obj\Debug\net7.0\Application.pdb
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\bin\Debug\net7.0\Application.deps.json
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\bin\Debug\net7.0\Application.dll
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\bin\Debug\net7.0\Application.pdb
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\bin\Debug\net7.0\Domain.dll
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\bin\Debug\net7.0\Domain.pdb
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\obj\Debug\net7.0\ref\Application.dll

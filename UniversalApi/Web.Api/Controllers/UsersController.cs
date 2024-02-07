@@ -1,5 +1,4 @@
-﻿
-using Application.Queries.User;
+﻿using Application.Queries.UserQueries;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

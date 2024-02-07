@@ -1,6 +1,7 @@
 ﻿using Application.Common.Interfaces;
 using Application.DTOS;
 using AutoMapper;
+using AutoMapper.QueryableExtensions;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -8,40 +9,41 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
-namespace Application.Queries.User
+namespace Application.Queries.EmployeeQueries
 {
-    public class GetUserDetailsQuery : IRequest<UserDto>
+    public class GetEmployeeDetailQuery : IRequest<EmployeeDto>
     {
         public int Id { get; set; }
-
-        public GetUserDetailsQuery(int id)
-        {
-            Id = id;
+        public GetEmployeeDetailQuery(int id)
+        { 
+        
+            Id = id; 
         }
+
     }
-    public class GetUserDetailsQueryHandler : IRequestHandler<GetUserDetailsQuery, UserDto>
+    public class GetEmployeeDetailQueryHandler : IRequestHandler<GetEmployeeDetailQuery, EmployeeDto>
     {
         private readonly IAppDbContext _context;
         private readonly IMapper _mapper;
 
-        public GetUserDetailsQueryHandler(IAppDbContext context, IMapper mapper)
+        public GetEmployeeDetailQueryHandler(IAppDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
 
-        public async Task<UserDto> Handle(GetUserDetailsQuery request, CancellationToken cancellationToken)
+        public async Task<EmployeeDto> Handle(GetEmployeeDetailQuery request, CancellationToken cancellationToken)
         {
-            var vm = await _context.Users
+            var vm = await _context.Employees
                 .Where(e => e.Id == request.Id)
                 //.ProjectTo<EmployeeDetailVm>(_mapper.ConfigurationProvider)
                 .SingleOrDefaultAsync(cancellationToken);
 
-            var data = _mapper.Map<UserDto>(vm);
+            var data = _mapper.Map<EmployeeDto>(vm);
             return data;
         }
     }
-
 
 }

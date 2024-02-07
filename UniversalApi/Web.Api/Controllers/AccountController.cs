@@ -1,4 +1,6 @@
-﻿using Application.DTOS;
+﻿using Application.Commands.Auth;
+using Application.Commands.UserCommand;
+using Application.DTOS;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,12 +12,18 @@ namespace Web.Api.Controllers
         [HttpPost("Registration")]
         public async Task<IActionResult> RegisterUser([FromBody] UserForRegistrationDto userForRegistration)
         {
-            return Ok();
+            return Ok(await Mediator.Send(new CreateUserCommand()
+            {
+                UserDto = userForRegistration,
+            }));
         }
         [HttpPost("Login")]
-        public async Task<IActionResult> Login([FromBody] UserForRegistrationDto userForRegistration)
+        public async Task<IActionResult> Login([FromBody] UserForRegistrationDto userDto)
         {
-            return Ok();
+            return Ok(await Mediator.Send(new AuthCommand()
+            {
+                Model = userDto,
+            }));
         }
     }
 }
