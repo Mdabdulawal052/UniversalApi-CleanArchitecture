@@ -8,12 +8,26 @@ using System.Text;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Authorization;
 using Web.Api.Handlers;
+using Web.Api.Helper;
+using Serilog;
+using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using Serilog.Events;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddHttpContextAccessor();
 
+Log.Logger = new LoggerConfiguration()
+       .MinimumLevel.Debug()
+       .WriteTo.Logger(c => c.Filter.ByIncludingOnly(e => e.Level == LogEventLevel.Debug)
+       .WriteTo.File($"E:/Logs/serilog/DEBUG.log", rollingInterval: RollingInterval.Day))
+       .WriteTo.Logger(c => c.Filter.ByIncludingOnly(e => e.Level == LogEventLevel.Information)
+       .WriteTo.File($"E:/Logs/serilog/Info.log", rollingInterval: RollingInterval.Day))
+       .WriteTo.Logger(c => c.Filter.ByIncludingOnly(e => e.Level == LogEventLevel.Error)
+       .WriteTo.File($"E:/Logs/serilog/ERROR.log", rollingInterval: RollingInterval.Day))
+       .CreateLogger();
 
-
+builder.Services.TryAdd(ServiceDescriptor.Singleton<IMemoryCache, MemoryCache>());
 
 var jwtSettings = builder.Configuration.GetSection("JWTSettings");
 builder.Services.AddAuthentication(opt =>
@@ -78,10 +92,17 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
 app.UseHttpsRedirection();
 
+app.UseCors(x => x
+               .AllowAnyMethod()
+               .AllowAnyHeader()
+               .SetIsOriginAllowed(origin => true)
+               .AllowCredentials());
+app.UseAuthentication();
 app.UseAuthorization();
+app.UseMiddleware<AuditLogMiddleware>();
+app.UseStaticFiles();
 
 app.MapControllers();
 

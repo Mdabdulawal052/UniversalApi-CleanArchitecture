@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mR8dr4KULZ7WLvWDnAi6xq6fv6hy8sFrpg0ZFIjd5f2lTQS58Pb0IPedUG8zPsMcHw43OR6f5++mfidbYe/Srg==",
+  "dgSpecHash": "QS9Dvdr0sLEffsKKVxSjyAPXAwBB8Nxww0k/H1mkh8QRnlQN9cZWWuAQ8Zwr1GG58zZd0NdZOhyorajC15MZbQ==",
   "success": true,
   "projectFilePath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Web.Api.csproj",
   "expectedPackageFiles": [
@@ -53,6 +53,9 @@
     "C:\\Users\\Foysal\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Foysal\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\Foysal\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Foysal\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Foysal\\.nuget\\packages\\serilog\\3.1.2-dev-02097\\serilog.3.1.2-dev-02097.nupkg.sha512",
+    "C:\\Users\\Foysal\\.nuget\\packages\\serilog.sinks.file\\5.0.1-dev-00972\\serilog.sinks.file.5.0.1-dev-00972.nupkg.sha512",
     "C:\\Users\\Foysal\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\Foysal\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\Foysal\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

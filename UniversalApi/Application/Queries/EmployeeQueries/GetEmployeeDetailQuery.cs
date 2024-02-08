@@ -2,6 +2,7 @@
 using Application.DTOS;
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
+using Domain.Entity;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -41,6 +42,10 @@ namespace Application.Queries.EmployeeQueries
                 //.ProjectTo<EmployeeDetailVm>(_mapper.ConfigurationProvider)
                 .SingleOrDefaultAsync(cancellationToken);
 
+            if (vm == null)
+            {
+                vm = new Employee();
+            }
             var data = _mapper.Map<EmployeeDto>(vm);
             return data;
         }

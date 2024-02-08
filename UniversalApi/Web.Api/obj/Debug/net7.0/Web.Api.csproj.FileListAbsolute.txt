@@ -179,3 +179,6 @@ E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Web.Api\obj\Deb
 E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Web.Api\obj\Debug\net7.0\Web.Api.genruntimeconfig.cache
 E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Web.Api\obj\Debug\net7.0\ref\Web.Api.dll
 E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Web.Api\bin\Debug\net7.0\Ardalis.Result.dll
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Web.Api\bin\Debug\net7.0\Newtonsoft.Json.dll
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Web.Api\bin\Debug\net7.0\Serilog.dll
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Web.Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
