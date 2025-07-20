@@ -14,7 +14,7 @@ namespace Application.Common.Interfaces
     public interface ITokenService
     {
         SigningCredentials GetSigningCredentials();
-        Task<List<Claim>> GetClaims(UserDto user,List<RoleDto> roles);
+        Task<List<Claim>> GetClaims(UserDto user, List<RoleDto> roles);
         JwtSecurityToken GenerateTokenOptions(SigningCredentials signingCredentials, List<Claim> claims);
         string GenerateRefreshToken();
         ClaimsPrincipal GetPrincipalFromExpiredToken(string token);

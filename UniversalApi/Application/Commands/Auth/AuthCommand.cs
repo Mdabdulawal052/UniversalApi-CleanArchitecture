@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Security.Authentication;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -39,14 +40,10 @@ namespace Application.Commands.Auth
         {
             var user = await _mediator.Send(new GetUserDetailsQuery(request.Model.UserName));
 
-            if (user == null)
+            if (user == null)//|| (EncryptPassword.EncryptStringToBytes(request.Model.Password, user.HashKey) != user.PasswordHash)
             {
-                var encryptPassword = EncryptPassword.EncryptStringToBytes(request.Model.Password, user.HashKey);
-                if (encryptPassword != user.PasswordHash)
-                {
-
-                }
-                //return new Exception("InvalidAuthentication");
+                // throw new AuthenticationException("Invalid authentication");
+                throw new Exception("Invalid authentication");
 
             }
             var roles = await _mediator.Send(new GetAllRoleQuery());

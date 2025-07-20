@@ -28,13 +28,16 @@ namespace Infrastructure
             _currentUserService = currentUserService;
             _dateTime = dateTime;
         }
-        public DbSet<Employee> Employees { get; set; }
-        public DbSet<User> Users { get; set; }
-        public DbSet<NavigationMenu> NavigationMenus { get; set; }
-        public DbSet<Role> Roles { get; set; }
-        public DbSet<RoleMenuPermission> RoleMenuPermissions { get; set; }
-        public DbSet<UserRole> UserRoles { get; set; }
+        //public DbSet<Employee> Employees { set; }
+     
 
+        public DbSet<Employee> Employees => Set<Employee>();
+        public DbSet<User> Users => Set<User>();
+        public DbSet<NavigationMenu> NavigationMenus => Set<NavigationMenu>();
+        public DbSet<Role> Roles => Set<Role>();
+        public DbSet<RoleMenuPermission> RoleMenuPermissions => Set<RoleMenuPermission>();
+
+        public DbSet<UserRole> UserRoles => Set<UserRole>();
 
 
 

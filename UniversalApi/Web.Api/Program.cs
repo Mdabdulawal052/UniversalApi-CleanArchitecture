@@ -13,6 +13,10 @@ using Serilog;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Serilog.Events;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Newtonsoft.Json;
+using Microsoft.Extensions.DependencyInjection;
+using HealthChecks.UI.Client;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddHttpContextAccessor();
@@ -80,7 +84,7 @@ builder.Services.AddSwaggerGen(c => {
                             }
                         },
                         new string[] {}
-                    }
+        }
                 });
 });
 
@@ -92,6 +96,48 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseSwagger();
+app.UseSwaggerUI();
+//app.UseHealthChecks("/health", new HealthCheckOptions
+//{
+//    ResponseWriter = async (context, report) =>
+//    {
+//        var result = JsonConvert.SerializeObject(
+//            new
+//            {
+//                status = report.Status.ToString(),
+//                errors = report.Entries.Select(e => new {
+//                    key = e.Key,
+//                    value =
+//                e.Value.Status.ToString()
+//                })
+//            });
+//        context.Response.ContentType = "application/json";
+//        await context.Response.WriteAsync(result);
+//    }
+//});
+app.UseHealthChecks("/health", new HealthCheckOptions
+{
+    Predicate = _=> true,
+    ResponseWriter =UIResponseWriter.WriteHealthCheckUIResponse
+    //ResponseWriter = async (context, report) =>
+    //{
+
+    //    var result = JsonConvert.SerializeObject(
+    //        new
+    //        {
+    //            status = report.Status.ToString(),
+    //            errors = report.Entries.Select(e => new
+    //            {
+    //                key = e.Key,
+    //                value = e.Value.Status.ToString(),
+    //                message = e.Value.Description // Include the description/message from health check
+    //            })
+    //        });
+    //    context.Response.ContentType = "application/json";
+    //    await context.Response.WriteAsync(result);
+    //}
+}); ;
 app.UseHttpsRedirection();
 
 app.UseCors(x => x

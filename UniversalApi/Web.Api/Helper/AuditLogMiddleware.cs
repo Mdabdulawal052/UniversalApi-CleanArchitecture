@@ -82,16 +82,23 @@ namespace Web.Api.Helper
                     code = HttpStatusCode.NotFound;
                     Log.Error("Audit: Path={Path} User={User} Timestamp={Timestamp} |Error Code : {} | Error : {Error}", requestPath, user, timestamp, code, exception.Message);
                     break;
+                default:
+                    code = HttpStatusCode.NoContent;
+                    Log.Error("Audit: Path={Path} User={User} Timestamp={Timestamp} |Error Code : {} | Error : {Error}", requestPath, user, timestamp, code, exception.Message);
+                    break;
+
             }
 
             context.Response.ContentType = "application/problem+json";
             context.Response.StatusCode = (int)code;
 
             if (result == string.Empty)
-
             {
                 result = exception.Message;
-                BuildException(exception.InnerException, result);
+                if (exception.InnerException != null)
+                {
+                    BuildException(exception.InnerException, result);
+                }
                 result = JsonConvert.SerializeObject(new
                 {
                     error = exception.Message,
@@ -103,10 +110,21 @@ namespace Web.Api.Helper
         }
         void BuildException(Exception ex, string message)
         {
-            if (ex.InnerException != null)
+
+            message += ex.Message;
+
+            // Check if the current exception has an inner exception
+            if (ex?.InnerException != null)
             {
-                message += ex.Message;
+                // Recursively call BuildException with the inner exception and updated message
                 BuildException(ex.InnerException, message);
+            }
+            else
+            {
+                // If there's no inner exception, you can handle the built exception message here
+                Console.WriteLine(message);
+                // Or you might want to throw a new exception with the built message
+                throw new Exception(message);
             }
         }
 

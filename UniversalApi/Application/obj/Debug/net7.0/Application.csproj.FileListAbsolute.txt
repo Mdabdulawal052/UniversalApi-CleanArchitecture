@@ -27,5 +27,5 @@ E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\bin
 E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\bin\Debug\net7.0\Application.pdb
 E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\bin\Debug\net7.0\Domain.dll
 E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\bin\Debug\net7.0\Domain.pdb
-E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
 E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\obj\Debug\net7.0\ref\Application.dll
+E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Application\obj\Debug\net7.0\Applicat.44B5EDA2.Up2Date

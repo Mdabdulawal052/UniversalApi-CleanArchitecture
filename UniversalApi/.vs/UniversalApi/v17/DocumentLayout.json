@@ -1,0 +1,939 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\web.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\web.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\web.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\commands\\usercommand\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\commands\\usercommand\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\commands\\auth\\authcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\commands\\auth\\authcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\common\\extentions\\encryptpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\common\\extentions\\encryptpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\web.api\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\common\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\common\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323F852B-FCBC-4587-8088-E5416BB70479}|Infrastructure\\Infrastructure.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323F852B-FCBC-4587-8088-E5416BB70479}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\web.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\web.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\web.api\\service\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\service\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\common\\interfaces\\icurrentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\common\\interfaces\\icurrentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323F852B-FCBC-4587-8088-E5416BB70479}|Infrastructure\\Infrastructure.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323F852B-FCBC-4587-8088-E5416BB70479}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\queries\\menuqueries\\getmenuitemquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\queries\\menuqueries\\getmenuitemquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\system\\commands\\seedsampledata\\sampledataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\system\\commands\\seedsampledata\\sampledataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\notifications\\models\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\notifications\\models\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\common\\pagination\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\common\\pagination\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\common\\pagination\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\common\\pagination\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\common\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\common\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\common\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\common\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8FDDFB2-7BAD-411A-B1BE-D196884DF1DB}|Domain\\Domain.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\domain\\entity\\navigationmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8FDDFB2-7BAD-411A-B1BE-D196884DF1DB}|Domain\\Domain.csproj|solutionrelative:domain\\entity\\navigationmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\common\\interfaces\\icsvfilebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\common\\interfaces\\icsvfilebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\common\\interfaces\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\common\\interfaces\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\common\\helper\\myhealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\common\\helper\\myhealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\common\\extentions\\customextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\common\\extentions\\customextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\common\\exceptions\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\common\\exceptions\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\common\\behaviours\\requestlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\common\\behaviours\\requestlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\common\\behaviours\\requestperformancebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\common\\behaviours\\requestperformancebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\common\\behaviours\\requestvalidationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\common\\behaviours\\requestvalidationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8FDDFB2-7BAD-411A-B1BE-D196884DF1DB}|Domain\\Domain.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\domain\\entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8FDDFB2-7BAD-411A-B1BE-D196884DF1DB}|Domain\\Domain.csproj|solutionrelative:domain\\entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8FDDFB2-7BAD-411A-B1BE-D196884DF1DB}|Domain\\Domain.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\domain\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8FDDFB2-7BAD-411A-B1BE-D196884DF1DB}|Domain\\Domain.csproj|solutionrelative:domain\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6B7654-9305-43E5-8D1D-9DD88398440F}|TestApi\\TestApi.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\testapi\\query\\userqueries\\getalluserqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6B7654-9305-43E5-8D1D-9DD88398440F}|TestApi\\TestApi.csproj|solutionrelative:testapi\\query\\userqueries\\getalluserqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6B7654-9305-43E5-8D1D-9DD88398440F}|TestApi\\TestApi.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\testapi\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6B7654-9305-43E5-8D1D-9DD88398440F}|TestApi\\TestApi.csproj|solutionrelative:testapi\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6B7654-9305-43E5-8D1D-9DD88398440F}|TestApi\\TestApi.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\testapi\\common\\querytestfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6B7654-9305-43E5-8D1D-9DD88398440F}|TestApi\\TestApi.csproj|solutionrelative:testapi\\common\\querytestfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6B7654-9305-43E5-8D1D-9DD88398440F}|TestApi\\TestApi.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\testapi\\common\\northwindcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6B7654-9305-43E5-8D1D-9DD88398440F}|TestApi\\TestApi.csproj|solutionrelative:testapi\\common\\northwindcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6B7654-9305-43E5-8D1D-9DD88398440F}|TestApi\\TestApi.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\testapi\\common\\commandtestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6B7654-9305-43E5-8D1D-9DD88398440F}|TestApi\\TestApi.csproj|solutionrelative:testapi\\common\\commandtestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\queries\\userqueries\\getalluserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\queries\\userqueries\\getalluserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\web.api\\apibasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\apibasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6B7654-9305-43E5-8D1D-9DD88398440F}|TestApi\\TestApi.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\testapi\\query\\employeequeries\\getemployeedetailqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6B7654-9305-43E5-8D1D-9DD88398440F}|TestApi\\TestApi.csproj|solutionrelative:testapi\\query\\employeequeries\\getemployeedetailqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\queries\\employeequeries\\getemployeedetailquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\queries\\employeequeries\\getemployeedetailquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6B7654-9305-43E5-8D1D-9DD88398440F}|TestApi\\TestApi.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\testapi\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6B7654-9305-43E5-8D1D-9DD88398440F}|TestApi\\TestApi.csproj|solutionrelative:testapi\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\commands\\auth\\rolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\commands\\auth\\rolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\web.api\\helper\\auditlogmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\helper\\auditlogmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\web.api\\helper\\jwttokenprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\helper\\jwttokenprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8FDDFB2-7BAD-411A-B1BE-D196884DF1DB}|Domain\\Domain.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\domain\\entity\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8FDDFB2-7BAD-411A-B1BE-D196884DF1DB}|Domain\\Domain.csproj|solutionrelative:domain\\entity\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8FDDFB2-7BAD-411A-B1BE-D196884DF1DB}|Domain\\Domain.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\domain\\entity\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8FDDFB2-7BAD-411A-B1BE-D196884DF1DB}|Domain\\Domain.csproj|solutionrelative:domain\\entity\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\web.api\\handlers\\rolesauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\handlers\\rolesauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\queries\\rolequeries\\getallrolequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\queries\\rolequeries\\getallrolequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\queries\\userqueries\\getalluserbypaginationquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\queries\\userqueries\\getalluserbypaginationquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\queries\\userqueries\\getuserdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\queries\\userqueries\\getuserdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\queries\\rolequeries\\getrolebynamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\queries\\rolequeries\\getrolebynamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Foysal\\AppData\\Local\\SourceServer\\da0562581e07efe939853644d36a8badc154b135ab5ef736a92cc84e4e915e82\\UniversalApi\\Application\\Commands\\UserCommand\\CreateUserCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\web.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AED0E4F-A090-4987-925A-3EA38144E9C6}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|e:\\foysal workingnew\\universalapi-cleanarchitecture\\universalapi\\application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB9A147-01B8-4248-AEEA-AB102F8F8C4E}|Application\\Application.csproj|solutionrelative:application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Web.Api\\Controllers\\UsersController.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Web.Api\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T06:45:18.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Interfaces\\ITokenService.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "Application\\Common\\Interfaces\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T12:03:20.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EncryptPassword.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Extentions\\EncryptPassword.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Extentions\\EncryptPassword.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Extentions\\EncryptPassword.cs",
+              "RelativeToolTip": "Application\\Common\\Extentions\\EncryptPassword.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T11:54:23.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Commands\\UserCommand\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\UserCommand\\CreateUserCommand.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Commands\\UserCommand\\CreateUserCommand.cs",
+              "RelativeToolTip": "Application\\Commands\\UserCommand\\CreateUserCommand.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAqwC8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-04T10:11:33.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Web.Api\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Web.Api\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwA4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T11:33:49.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthCommand.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Commands\\Auth\\AuthCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\Auth\\AuthCommand.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Commands\\Auth\\AuthCommand.cs",
+              "RelativeToolTip": "Application\\Commands\\Auth\\AuthCommand.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwDUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-04T10:04:09.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Application\\DependencyInjection.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\DependencyInjection.cs",
+              "RelativeToolTip": "Application\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T05:28:51.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Web.Api\\Controllers\\EmployeesController.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Web.Api\\Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T11:46:25.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T11:49:34.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Service\\TokenService.cs",
+              "RelativeDocumentMoniker": "Web.Api\\Service\\TokenService.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Service\\TokenService.cs",
+              "RelativeToolTip": "Web.Api\\Service\\TokenService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:23:38.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Web.Api\\appsettings.json",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\appsettings.json",
+              "RelativeToolTip": "Web.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-23T10:32:40.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Web.Api\\Program.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Program.cs",
+              "RelativeToolTip": "Web.Api\\Program.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAADgvzkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T09:02:57.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CurrentUserService.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Service\\CurrentUserService.cs",
+              "RelativeDocumentMoniker": "Web.Api\\Service\\CurrentUserService.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Service\\CurrentUserService.cs",
+              "RelativeToolTip": "Web.Api\\Service\\CurrentUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T06:34:49.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICurrentUserService.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Interfaces\\ICurrentUserService.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Interfaces\\ICurrentUserService.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Interfaces\\ICurrentUserService.cs",
+              "RelativeToolTip": "Application\\Common\\Interfaces\\ICurrentUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T12:03:12.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T12:33:21.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetMenuItemQuery.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Queries\\MenuQueries\\GetMenuItemQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\MenuQueries\\GetMenuItemQuery.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Queries\\MenuQueries\\GetMenuItemQuery.cs",
+              "RelativeToolTip": "Application\\Queries\\MenuQueries\\GetMenuItemQuery.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAcwDoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-07T05:02:57.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SampleDataSeeder.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\System\\Commands\\SeedSampleData\\SampleDataSeeder.cs",
+              "RelativeDocumentMoniker": "Application\\System\\Commands\\SeedSampleData\\SampleDataSeeder.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\System\\Commands\\SeedSampleData\\SampleDataSeeder.cs",
+              "RelativeToolTip": "Application\\System\\Commands\\SeedSampleData\\SampleDataSeeder.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAApwDcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T11:18:05.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Interfaces\\INotificationService.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Interfaces\\INotificationService.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Interfaces\\INotificationService.cs",
+              "RelativeToolTip": "Application\\Common\\Interfaces\\INotificationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T06:45:19.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Pagination.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Pagination\\Pagination.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Pagination\\Pagination.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Pagination\\Pagination.cs",
+              "RelativeToolTip": "Application\\Common\\Pagination\\Pagination.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T06:45:19.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Result.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Models\\Result.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Models\\Result.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Models\\Result.cs",
+              "RelativeToolTip": "Application\\Common\\Models\\Result.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T08:25:43.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MessageDto.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Notifications\\Models\\MessageDto.cs",
+              "RelativeDocumentMoniker": "Application\\Notifications\\Models\\MessageDto.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Notifications\\Models\\MessageDto.cs",
+              "RelativeToolTip": "Application\\Notifications\\Models\\MessageDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T12:10:48.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NavigationMenu.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Entity\\NavigationMenu.cs",
+              "RelativeDocumentMoniker": "Domain\\Entity\\NavigationMenu.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Entity\\NavigationMenu.cs",
+              "RelativeToolTip": "Domain\\Entity\\NavigationMenu.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T06:45:19.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\DTOS\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOS\\AuthResponseDto.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\DTOS\\AuthResponseDto.cs",
+              "RelativeToolTip": "Application\\DTOS\\AuthResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T10:12:49.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Result.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Pagination\\Result.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Pagination\\Result.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Pagination\\Result.cs",
+              "RelativeToolTip": "Application\\Common\\Pagination\\Result.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T08:25:54.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ICsvFileBuilder.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Interfaces\\ICsvFileBuilder.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Interfaces\\ICsvFileBuilder.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Interfaces\\ICsvFileBuilder.cs",
+              "RelativeToolTip": "Application\\Common\\Interfaces\\ICsvFileBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T06:45:19.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IAppDbContext.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Interfaces\\IAppDbContext.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Interfaces\\IAppDbContext.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Interfaces\\IAppDbContext.cs",
+              "RelativeToolTip": "Application\\Common\\Interfaces\\IAppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T06:01:27.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MyHealthCheck.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Helper\\MyHealthCheck.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Helper\\MyHealthCheck.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Helper\\MyHealthCheck.cs",
+              "RelativeToolTip": "Application\\Common\\Helper\\MyHealthCheck.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T12:25:33.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApiException.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Exceptions\\ApiException.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Exceptions\\ApiException.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Exceptions\\ApiException.cs",
+              "RelativeToolTip": "Application\\Common\\Exceptions\\ApiException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T11:22:21.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RequestLogger.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Behaviours\\RequestLogger.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Behaviours\\RequestLogger.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Behaviours\\RequestLogger.cs",
+              "RelativeToolTip": "Application\\Common\\Behaviours\\RequestLogger.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T06:45:19.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RequestPerformanceBehaviour.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Behaviours\\RequestPerformanceBehaviour.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Behaviours\\RequestPerformanceBehaviour.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Behaviours\\RequestPerformanceBehaviour.cs",
+              "RelativeToolTip": "Application\\Common\\Behaviours\\RequestPerformanceBehaviour.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAawCAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T06:45:19.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RequestValidationBehavior.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Behaviours\\RequestValidationBehavior.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Behaviours\\RequestValidationBehavior.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Behaviours\\RequestValidationBehavior.cs",
+              "RelativeToolTip": "Application\\Common\\Behaviours\\RequestValidationBehavior.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T11:50:09.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Entity\\Employee.cs",
+              "RelativeDocumentMoniker": "Domain\\Entity\\Employee.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Entity\\Employee.cs",
+              "RelativeToolTip": "Domain\\Entity\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T06:45:18.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CustomExtensions.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Extentions\\CustomExtensions.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Extentions\\CustomExtensions.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Common\\Extentions\\CustomExtensions.cs",
+              "RelativeToolTip": "Application\\Common\\Extentions\\CustomExtensions.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T06:45:19.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entity\\User.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Entity\\User.cs",
+              "RelativeToolTip": "Domain\\Entity\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBYAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T06:40:12.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "NorthwindContextFactory.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\TestApi\\Common\\NorthwindContextFactory.cs",
+              "RelativeDocumentMoniker": "TestApi\\Common\\NorthwindContextFactory.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\TestApi\\Common\\NorthwindContextFactory.cs",
+              "RelativeToolTip": "TestApi\\Common\\NorthwindContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-12T09:59:15.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CommandTestBase.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\TestApi\\Common\\CommandTestBase.cs",
+              "RelativeDocumentMoniker": "TestApi\\Common\\CommandTestBase.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\TestApi\\Common\\CommandTestBase.cs",
+              "RelativeToolTip": "TestApi\\Common\\CommandTestBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-07T08:48:00.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "QueryTestFixture.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\TestApi\\Common\\QueryTestFixture.cs",
+              "RelativeDocumentMoniker": "TestApi\\Common\\QueryTestFixture.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\TestApi\\Common\\QueryTestFixture.cs",
+              "RelativeToolTip": "TestApi\\Common\\QueryTestFixture.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-12T09:59:55.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ApiBaseController.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\ApiBaseController.cs",
+              "RelativeDocumentMoniker": "Web.Api\\ApiBaseController.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\ApiBaseController.cs",
+              "RelativeToolTip": "Web.Api\\ApiBaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-04T06:05:32.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GetAllUserQuery.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Queries\\UserQueries\\GetAllUserQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\UserQueries\\GetAllUserQuery.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Queries\\UserQueries\\GetAllUserQuery.cs",
+              "RelativeToolTip": "Application\\Queries\\UserQueries\\GetAllUserQuery.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAIA1wA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T12:29:45.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GetAllUserQueryHandlerTests.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\TestApi\\Query\\UserQueries\\GetAllUserQueryHandlerTests.cs",
+              "RelativeDocumentMoniker": "TestApi\\Query\\UserQueries\\GetAllUserQueryHandlerTests.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\TestApi\\Query\\UserQueries\\GetAllUserQueryHandlerTests.cs",
+              "RelativeToolTip": "TestApi\\Query\\UserQueries\\GetAllUserQueryHandlerTests.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-12T09:38:59.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\TestApi\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "TestApi\\GlobalUsings.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\TestApi\\GlobalUsings.cs",
+              "RelativeToolTip": "TestApi\\GlobalUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-12T09:23:47.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GetEmployeeDetailQueryHandlerTests.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\TestApi\\Query\\EmployeeQueries\\GetEmployeeDetailQueryHandlerTests.cs",
+              "RelativeDocumentMoniker": "TestApi\\Query\\EmployeeQueries\\GetEmployeeDetailQueryHandlerTests.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\TestApi\\Query\\EmployeeQueries\\GetEmployeeDetailQueryHandlerTests.cs",
+              "RelativeToolTip": "TestApi\\Query\\EmployeeQueries\\GetEmployeeDetailQueryHandlerTests.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-12T09:50:57.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "GetEmployeeDetailQuery.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Queries\\EmployeeQueries\\GetEmployeeDetailQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\EmployeeQueries\\GetEmployeeDetailQuery.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Queries\\EmployeeQueries\\GetEmployeeDetailQuery.cs",
+              "RelativeToolTip": "Application\\Queries\\EmployeeQueries\\GetEmployeeDetailQuery.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAnwDMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-07T09:02:00.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\TestApi\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestApi\\UnitTest1.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\TestApi\\UnitTest1.cs",
+              "RelativeToolTip": "TestApi\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-12T09:23:44.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AuditLogMiddleware.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Helper\\AuditLogMiddleware.cs",
+              "RelativeDocumentMoniker": "Web.Api\\Helper\\AuditLogMiddleware.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Helper\\AuditLogMiddleware.cs",
+              "RelativeToolTip": "Web.Api\\Helper\\AuditLogMiddleware.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAlwF8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T08:56:19.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Role.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Entity\\Role.cs",
+              "RelativeDocumentMoniker": "Domain\\Entity\\Role.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Entity\\Role.cs",
+              "RelativeToolTip": "Domain\\Entity\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T06:40:18.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "RoleCommand.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Commands\\Auth\\RoleCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\Auth\\RoleCommand.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Commands\\Auth\\RoleCommand.cs",
+              "RelativeToolTip": "Application\\Commands\\Auth\\RoleCommand.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAD4vyYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T05:42:05.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Entity\\UserRole.cs",
+              "RelativeDocumentMoniker": "Domain\\Entity\\UserRole.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Entity\\UserRole.cs",
+              "RelativeToolTip": "Domain\\Entity\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T06:40:16.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "JwtTokenProvider.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Helper\\JwtTokenProvider.cs",
+              "RelativeDocumentMoniker": "Web.Api\\Helper\\JwtTokenProvider.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Helper\\JwtTokenProvider.cs",
+              "RelativeToolTip": "Web.Api\\Helper\\JwtTokenProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-04T08:40:54.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "RolesAuthorizationHandler.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Handlers\\RolesAuthorizationHandler.cs",
+              "RelativeDocumentMoniker": "Web.Api\\Handlers\\RolesAuthorizationHandler.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Handlers\\RolesAuthorizationHandler.cs",
+              "RelativeToolTip": "Web.Api\\Handlers\\RolesAuthorizationHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T08:39:38.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "GetAllUserByPaginationQuery.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Queries\\UserQueries\\GetAllUserByPaginationQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\UserQueries\\GetAllUserByPaginationQuery.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Queries\\UserQueries\\GetAllUserByPaginationQuery.cs",
+              "RelativeToolTip": "Application\\Queries\\UserQueries\\GetAllUserByPaginationQuery.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAASwBAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T06:45:18.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "GetAllRoleQuery.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Queries\\RoleQueries\\GetAllRoleQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\RoleQueries\\GetAllRoleQuery.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Queries\\RoleQueries\\GetAllRoleQuery.cs",
+              "RelativeToolTip": "Application\\Queries\\RoleQueries\\GetAllRoleQuery.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwB8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T05:34:39.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "GetUserDetailsQuery.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Queries\\UserQueries\\GetUserDetailsQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\UserQueries\\GetUserDetailsQuery.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Queries\\UserQueries\\GetUserDetailsQuery.cs",
+              "RelativeToolTip": "Application\\Queries\\UserQueries\\GetUserDetailsQuery.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAcwA0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T05:26:27.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "GetRoleByNameQuery.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Queries\\RoleQueries\\GetRoleByNameQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\RoleQueries\\GetRoleByNameQuery.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\Queries\\RoleQueries\\GetRoleByNameQuery.cs",
+              "RelativeToolTip": "Application\\Queries\\RoleQueries\\GetRoleByNameQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T05:58:43.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Web.Api\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Web.Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Web.Api\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-04T09:59:57.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Foysal\\AppData\\Local\\SourceServer\\da0562581e07efe939853644d36a8badc154b135ab5ef736a92cc84e4e915e82\\UniversalApi\\Application\\Commands\\UserCommand\\CreateUserCommand.cs",
+              "ToolTip": "C:\\Users\\Foysal\\AppData\\Local\\SourceServer\\da0562581e07efe939853644d36a8badc154b135ab5ef736a92cc84e4e915e82\\UniversalApi\\Application\\Commands\\UserCommand\\CreateUserCommand.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T06:44:39.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\DTOS\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOS\\EmployeeDto.cs",
+              "ToolTip": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Application\\DTOS\\EmployeeDto.cs",
+              "RelativeToolTip": "Application\\DTOS\\EmployeeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T06:45:19.03Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

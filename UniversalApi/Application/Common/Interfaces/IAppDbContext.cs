@@ -10,12 +10,12 @@ namespace Application.Common.Interfaces
 {
     public interface IAppDbContext
     {
-        public DbSet<Employee> Employees { get; set; }
-        public DbSet<User> Users { get; set; }
-        public DbSet<NavigationMenu> NavigationMenus { get; set; }
-        public DbSet<Role> Roles { get; set; }
-        public DbSet<RoleMenuPermission> RoleMenuPermissions { get; set; }
-        public DbSet<UserRole> UserRoles { get; set; }
+         DbSet<Employee> Employees { get; }
+        DbSet<User> Users { get; }
+        DbSet<NavigationMenu> NavigationMenus { get; }
+        DbSet<Role> Roles { get; }
+        DbSet<RoleMenuPermission> RoleMenuPermissions { get; }
+        DbSet<UserRole> UserRoles { get; }
 
 
         Task<int> SaveChanges(CancellationToken cancellationToken);

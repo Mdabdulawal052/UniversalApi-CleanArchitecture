@@ -2,6 +2,7 @@ using System;
 using Application.Common.Mappings;
 using AutoMapper;
 using Infrastructure;
+using MediatR;
 using Xunit;
 
 namespace TestApi.Common
@@ -10,7 +11,7 @@ namespace TestApi.Common
     {
         public AppDbContext Context { get; private set; }
         public IMapper Mapper { get; private set; }
-
+        public IMediator Mediator { get; private set; }
         public QueryTestFixture()
         {
             Context = NorthwindContextFactory.CreateAsync().Result;
