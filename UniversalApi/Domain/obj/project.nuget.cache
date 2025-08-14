@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TvDXyq2u8WfJhLCVM9nkggl0ZKr1ickrhl5Prz8omXuAc+WuWwqsVUmg+V5o/tZ0o3asKxOsCmM8Zan0P8+lNg==",
+  "dgSpecHash": "EWTR2kKB+ok=",
   "success": true,
-  "projectFilePath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Foysal\\Net Core\\UniversalApi-CleanArchitecture-main\\UniversalApi-CleanArchitecture-main\\UniversalApi\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mediasoft\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Mediasoft\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Mediasoft\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

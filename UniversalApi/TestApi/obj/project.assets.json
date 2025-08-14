@@ -8793,23 +8793,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Foysal\\.nuget\\packages\\": {},
+    "C:\\Users\\Mediasoft\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\TestApi\\TestApi.csproj",
+      "projectUniqueName": "D:\\Foysal\\Net Core\\UniversalApi-CleanArchitecture-main\\UniversalApi-CleanArchitecture-main\\UniversalApi\\TestApi\\TestApi.csproj",
       "projectName": "TestApi",
-      "projectPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\TestApi\\TestApi.csproj",
-      "packagesPath": "C:\\Users\\Foysal\\.nuget\\packages\\",
-      "outputPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\TestApi\\obj\\",
+      "projectPath": "D:\\Foysal\\Net Core\\UniversalApi-CleanArchitecture-main\\UniversalApi-CleanArchitecture-main\\UniversalApi\\TestApi\\TestApi.csproj",
+      "packagesPath": "C:\\Users\\Mediasoft\\.nuget\\packages\\",
+      "outputPath": "D:\\Foysal\\Net Core\\UniversalApi-CleanArchitecture-main\\UniversalApi-CleanArchitecture-main\\UniversalApi\\TestApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Foysal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mediasoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8818,16 +8818,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "D:\\SVN\\CloudPosApp_V2_Vs13\\trunk\\CloudPosApp.POS\\dlls\\dot-net-transitions.1.2.1.0": {},
         "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "E:\\Foysal WorkingNew\\UniversalApi-CleanArchitecture\\UniversalApi\\Infrastructure\\Infrastructure.csproj"
+            "D:\\Foysal\\Net Core\\UniversalApi-CleanArchitecture-main\\UniversalApi-CleanArchitecture-main\\UniversalApi\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\Foysal\\Net Core\\UniversalApi-CleanArchitecture-main\\UniversalApi-CleanArchitecture-main\\UniversalApi\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -8841,7 +8839,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net7.0": {
@@ -8887,12 +8886,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

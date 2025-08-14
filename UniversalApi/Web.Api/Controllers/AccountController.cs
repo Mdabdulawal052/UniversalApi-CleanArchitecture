@@ -9,7 +9,8 @@ namespace Web.Api.Controllers
   
     public class AccountController : ApiBaseController
     {
-        [HttpPost("Registration")]
+        [HttpPost]
+        [Route("Registration")]
         public async Task<IActionResult> RegisterUser([FromBody] UserForRegistrationDto userForRegistration)
         {
             return Ok(await Mediator.Send(new CreateUserCommand()
@@ -17,7 +18,8 @@ namespace Web.Api.Controllers
                 UserDto = userForRegistration,
             }));
         }
-        [HttpPost("Login")]
+        [HttpPost]
+        [Route("Login")]
         public async Task<IActionResult> Login([FromBody] UserForRegistrationDto userDto)
         {
             return Ok(await Mediator.Send(new AuthCommand()

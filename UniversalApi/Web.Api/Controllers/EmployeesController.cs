@@ -19,12 +19,14 @@ namespace Web.Api.Controllers
 
         [Authorize(Roles ="User")]
         [HttpGet]
+        [Route("GetAll")]
         public async Task<IActionResult> GetAll()
         {
            // return Ok(await _appDbContext.Employees.ToListAsync());
            return Ok(await Mediator.Send(new GetEmployeesListQuery()));
         }
         [HttpGet]
+        [Route("GetById")]
         public async Task<IActionResult> GetById(int id)
         {
             // return Ok(await _appDbContext.Employees.ToListAsync());

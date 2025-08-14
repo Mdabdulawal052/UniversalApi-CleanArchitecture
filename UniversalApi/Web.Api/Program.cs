@@ -1,22 +1,23 @@
-using Infrastructure;
 using Application;
 using Application.Common.Interfaces;
-using Web.Api.Service;
+using HealthChecks.UI.Client;
+using Infrastructure;
+using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
+using Newtonsoft.Json;
+using Serilog;
+using Serilog.Events;
+using System.Text;
 using Web.Api.Handlers;
 using Web.Api.Helper;
-using Serilog;
-using Microsoft.Extensions.Caching.Memory;
-using Microsoft.Extensions.DependencyInjection.Extensions;
-using Serilog.Events;
-using Microsoft.AspNetCore.Diagnostics.HealthChecks;
-using Newtonsoft.Json;
-using Microsoft.Extensions.DependencyInjection;
-using HealthChecks.UI.Client;
+using Web.Api.Service;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddHttpContextAccessor();
@@ -59,7 +60,10 @@ builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
 builder.Services.AddApplication();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+// With this line:
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddMediatR(typeof(Program).Assembly);
 builder.Services.AddSwaggerGen(c => {
     c.SwaggerDoc("v1", new OpenApiInfo
     {
@@ -116,28 +120,29 @@ app.UseSwaggerUI();
 //        await context.Response.WriteAsync(result);
 //    }
 //});
-app.UseHealthChecks("/health", new HealthCheckOptions
-{
-    Predicate = _=> true,
-    ResponseWriter =UIResponseWriter.WriteHealthCheckUIResponse
-    //ResponseWriter = async (context, report) =>
-    //{
+//app.UseHealthChecks("/health", new HealthCheckOptions
+//{
+//    Predicate = _=> true,
+//    ResponseWriter =UIResponseWriter.WriteHealthCheckUIResponse
+//    //ResponseWriter = async (context, report) =>
+//    //{
 
-    //    var result = JsonConvert.SerializeObject(
-    //        new
-    //        {
-    //            status = report.Status.ToString(),
-    //            errors = report.Entries.Select(e => new
-    //            {
-    //                key = e.Key,
-    //                value = e.Value.Status.ToString(),
-    //                message = e.Value.Description // Include the description/message from health check
-    //            })
-    //        });
-    //    context.Response.ContentType = "application/json";
-    //    await context.Response.WriteAsync(result);
-    //}
-}); ;
+//    //    var result = JsonConvert.SerializeObject(
+//    //        new
+//    //        {
+//    //            status = report.Status.ToString(),
+//    //            errors = report.Entries.Select(e => new
+//    //            {
+//    //                key = e.Key,
+//    //                value = e.Value.Status.ToString(),
+//    //                message = e.Value.Description // Include the description/message from health check
+//    //            })
+//    //        });
+//    //    context.Response.ContentType = "application/json";
+//    //    await context.Response.WriteAsync(result);
+//    //}
+//}); ;
+
 app.UseHttpsRedirection();
 
 app.UseCors(x => x

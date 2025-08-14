@@ -21,3 +21,14 @@ E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Domain\obj\Debu
 E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Domain\obj\Debug\net7.0\refint\Domain.dll
 E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Domain\obj\Debug\net7.0\Domain.pdb
 E:\Foysal WorkingNew\UniversalApi-CleanArchitecture\UniversalApi\Domain\obj\Debug\net7.0\ref\Domain.dll
+D:\Foysal\Net Core\UniversalApi-CleanArchitecture-main\UniversalApi-CleanArchitecture-main\UniversalApi\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\Foysal\Net Core\UniversalApi-CleanArchitecture-main\UniversalApi-CleanArchitecture-main\UniversalApi\Domain\bin\Debug\net7.0\Domain.dll
+D:\Foysal\Net Core\UniversalApi-CleanArchitecture-main\UniversalApi-CleanArchitecture-main\UniversalApi\Domain\bin\Debug\net7.0\Domain.pdb
+D:\Foysal\Net Core\UniversalApi-CleanArchitecture-main\UniversalApi-CleanArchitecture-main\UniversalApi\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Foysal\Net Core\UniversalApi-CleanArchitecture-main\UniversalApi-CleanArchitecture-main\UniversalApi\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\Foysal\Net Core\UniversalApi-CleanArchitecture-main\UniversalApi-CleanArchitecture-main\UniversalApi\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\Foysal\Net Core\UniversalApi-CleanArchitecture-main\UniversalApi-CleanArchitecture-main\UniversalApi\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\Foysal\Net Core\UniversalApi-CleanArchitecture-main\UniversalApi-CleanArchitecture-main\UniversalApi\Domain\obj\Debug\net7.0\Domain.dll
+D:\Foysal\Net Core\UniversalApi-CleanArchitecture-main\UniversalApi-CleanArchitecture-main\UniversalApi\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\Foysal\Net Core\UniversalApi-CleanArchitecture-main\UniversalApi-CleanArchitecture-main\UniversalApi\Domain\obj\Debug\net7.0\Domain.pdb
+D:\Foysal\Net Core\UniversalApi-CleanArchitecture-main\UniversalApi-CleanArchitecture-main\UniversalApi\Domain\obj\Debug\net7.0\ref\Domain.dll
